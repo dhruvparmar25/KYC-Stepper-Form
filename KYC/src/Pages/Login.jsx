@@ -17,7 +17,8 @@ function Login() {
         }
         if (email == "admin" && password === "admin123") {
             setError("")
-            Navigate("/firstpage")
+            Navigate("/basicdetail")
+            alert("Welcome to Kyc")
         } else {
             setError("Invalid Candidate")
         }
